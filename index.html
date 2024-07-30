@@ -1,0 +1,243 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | ElectronicGadgets</title>
+    <link rel="icon" href="image/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-size: cover;
+            background: url("image/background.jpg");
+        }
+    </style>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <p align="left" class="head"><img src="image/logohead.jpg" alt="Image"><b> ElectronicGadgets</b>
+                </p>
+                <li><a href="index.html"><b>HOME</b></a></li>
+                <li><a href="about.html"><b>ABOUT</b></a></li>
+                <li><a href="shop.html"><b>SHOP</b></a></li>
+                <li><a href="contact.html"><b>CONTACT US</b></a></li>
+                <li><a href="items.php"><b>MY CART</b></a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <h3>
+        <marquee behavior="scroll" scrollamount="12" class="blink"> Welcome to ElectronicGadgets !! Bringing Energy to
+            Your Doorstep. .</marquee>
+    </h3>
+    <div class="image-container">
+        <a href="shop.html" onclick="navigateAndOpenTab(event, 'tab1', 'shop.html')"><img
+                src="image/indexfront.jpg" alt="Image 1"></a>
+    </div>
+    <h3> <em>Our Trending Products</em></h3>
+
+    <ul>
+        <li class="container">
+            <img class="image" src="products/lap1.jpeg" />
+            <span class="caption">
+                <h6>HP Pavilion 15-eh3102AU <br> Standard Laptop, <br> 39.6cm (15.6 inch) <br>Rs 61,500.00</h6>
+            </span>
+            <form action="store_item.php" method="POST">
+                <input type="hidden" name="item_name" value="HP Pavilion 15-eh3102AU Standard Laptop, 39.6cm (15.6 inch) ">
+                <input type="hidden" name="item_price" value="61500.00">
+                <button type="submit">Add to Cart</button>
+            </form>
+        </li>
+        <li class="container">
+            <img class="image" src="products/cam1.jpg" />
+            <span class="caption">
+                <h6>Canon EOS RP Camera <br> + RF 24-105mm <br>Lens <br>Rs 28,585.00</h6>
+            </span>
+            <form action="store_item.php" method="POST">
+                <input type="hidden" name="item_name" value="Canon EOS RP Camera + RF 24-105mm Lens ">
+                <input type="hidden" name="item_price" value="28585.00">
+                <button type="submit">Add to Cart</button>
+            </form>
+        </li>
+        <li class="container">
+            <img class="image" src="products/washm1.jpeg" />
+            <span class="caption">
+                <h6>LG 6kg Front Load <br>Washing Machine 6 Motion <br> Direct Drive, White <br>Rs 12,755.00 </h6>
+            </span>
+            <form action="store_item.php" method="POST">
+                <input type="hidden" name="item_name" value="LG 6kg Front Load Washing Machine 6 Motion Direct Drive, White ">
+                <input type="hidden" name="item_price" value="12755.00">
+                <button type="submit">Add to Cart</button>
+            </form>
+        </li>
+        <li class="container">
+            <img class="image" src="products/soundbox1.jpeg" />
+            <span class="caption">
+                <h6>Bluetooth Surround <br>Sound Speaker System - <br> Blue, 5.1 India<br>Rs 5,299.00</h6>
+            </span>
+            <form action="store_item.php" method="POST">
+                <input type="hidden" name="item_name" value="Bluetooth Surround Sound Speaker System - Blue, 5.1 India">
+                <input type="hidden" name="item_price" value="5299.00">
+                <button type="submit">Add to Cart</button>
+            </form>
+        </li>
+        <li class="container">
+            <img class="image" src="shop/lap2.jpg" />
+            <span class="caption">
+                <h6>Apple MacBook Air<br>Laptop M1 chip, <br>13.3-inch/13.74 cm <br>Rs 66,990.00</h6>
+            </span>
+            <form action="store_item.php" method="POST">
+                <input type="hidden" name="item_name" value="Apple MacBook Air Laptop M1 chip, 13.3-inch/13.74 cm ">
+                <input type="hidden" name="item_price" value="66900.00">
+                <button type="submit">Add to Cart</button>
+            </form>
+        </li>
+    </ul>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h3><em>Categories</em></h3>
+
+    <table border="6" width="70%" height="70%" align="center"cellSpacing="10px" cell padding="5px">
+        <tr align="center">
+            <th rowspan="5">Computers & Laptops:</th>
+            <td>Desktop Computers</td>
+            <th rowspan="5"><a href="shop.html#Computers & Laptops">click here</a></th>
+        </tr>
+        <tr align="center">
+            <td>Laptops & Notebooks</td>
+        </tr>
+        <tr align="center">
+            <td>Chromebooks</td>
+        </tr>
+
+        <tr align="center">
+            <td>Gaming Laptops</td>
+        </tr>
+        <tr align="center">
+            <td>Tablets & iPads</td>
+        </tr>
+        
+        <tr align="center">
+            <th rowspan="4">Smartphones & Accessories:</th>
+            <td>Smartphones</td>
+            <th rowspan="4"><a href="shop.html#Smartphones & Accessories">click here</a></th>
+        </tr>
+        <tr align="center">
+            <td>Chargers & Cables</td>
+        </tr>
+        <tr align="center">
+            <td>Power Banks</td>
+        </tr>
+
+        <tr align="center">
+            <td>Screen Protectors</td>
+        </tr>
+        
+
+        <tr align="center">
+            <th rowspan="5">Audio & Headphones:</th>
+            <td>Headphones</td>
+            <th rowspan="5"><a href="shop.html#Audio & Headphones">click here</a></th>
+        </tr>
+        <tr align="center">
+            <td>Earphones</td>
+        </tr>
+        <tr align="center">
+            <td>Bluetooth Speakers</td>
+        </tr>
+        <tr align="center">
+            <td>Soundbars</td>
+        </tr>
+        <tr align="center">
+            <td>Microphones</td>
+        </tr>
+
+        <tr align="center">
+            <th rowspan="5">Home Appliances:</th>
+            <td>Refrigerators</td>
+            <th rowspan="5"><a href="shop.html#Home Appliances">click here</a></th>
+        </tr>
+        <tr align="center">
+            <td>Washing Machines</td>
+        </tr>
+        <tr align="center">
+            <td>Vacuum Cleaners</td>
+        </tr>
+        <tr align="center">
+            <td>Air Conditioners</td>
+        </tr>
+        <tr align="center">
+            <td>Microwaves</td>
+        </tr>
+
+        <tr align="center">
+            <th rowspan="4">Wearable Technology:</th>
+            <td>Smartwatches</td>
+            <th rowspan="4"><a href="shop.html#Wearable Technology">click here</a></th>
+        </tr>
+        <tr align="center">
+            <td>Fitness Trackers</td>
+        </tr>
+        <tr align="center">
+            <td>VR Headsets</td>
+        </tr>
+
+        <tr align="center">
+            <td>Smart Glasses</td>
+        </tr>
+
+    </table>
+
+
+    <br><br>
+    <h3><em>Our Services</em></h3>
+    <p>At ElectronicGadgets, we are committed to providing a comprehensive range of services to meet all
+        your electronics needs. Our dedication to quality and customer satisfaction sets us apart in the industry.
+        Here's what we offer:
+
+        <b>Wide Range of Products</b>
+        We offer an extensive selection of the latest and most advanced electronic devices, including:
+
+    <ul>
+        <li>Smartphones: Discover the latest models from top brands like Apple, Samsung, and Google.</li><br>
+        <li>Laptops and Computers: Choose from a wide array of laptops, desktops, and accessories to suit your needs.
+        </li><br>
+        <li>Home Appliances: Equip your home with the best appliances, from smart refrigerators to advanced washing
+            machines.</li><br>
+        <li>Entertainment Systems: Experience immersive entertainment with our range of TVs, sound systems, and gaming
+            consoles.</li><br>
+        <li>Wearable Technology: Stay connected and track your health with the newest smartwatches and fitness trackers.
+        </li><br>
+    </ul>
+    </p>
+    <br><br>
+    <h3><em>Customer Reviews</em></h3>
+    <fieldset>
+        <legend>
+            <em>Partha Sarkar, Kolkata</em>
+        </legend>
+        <p> - “Great products and excellent customer service!”</p>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>
+            <em>Rohit Sharma, Mumbai</em>
+        </legend>
+        <p> - “I found exactly what I needed at a great price.”</p>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>
+            <em>Gautam Gambhir, Delhi</em>
+        </legend>
+        <p> - “I was completely impressed with their professionalism and customer service.”</p>
+    </fieldset>
+    <hr>
+    <footer>
+        <p align="center" class="copyright">Copyright &copy; ElectronicGadgets</p>
+    </footer>
+</body>
+
+</html>
